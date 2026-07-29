@@ -1,3 +1,7 @@
+---
+layout: default
+title: ""
+---
 # Privacy Policy for FlexGrabber Pro
 
 **Last Updated:** July 29, 2026
