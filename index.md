@@ -1,5 +1,4 @@
 
-title: ""
 ---
 # Privacy Policy for FlexGrabber Pro
 
