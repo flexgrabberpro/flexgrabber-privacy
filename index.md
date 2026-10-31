@@ -1,6 +1,4 @@
 
----
-layout: default
 title: ""
 ---
 # Privacy Policy for FlexGrabber Pro
