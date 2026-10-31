@@ -2,6 +2,10 @@
 layout: default
 title: ""
 ---
+---
+layout: default
+title: ""
+---
 # Privacy Policy for FlexGrabber Pro
 
 **Last Updated:** November 1, 2026
@@ -19,16 +23,20 @@ FlexGrabber Pro uses Android's **AccessibilityService API** to provide its core 
 
 ---
 
-## 2. Information Collection and Usage
-FlexGrabber Pro is designed with privacy in mind:
+## 2. Information Collection and Account Authentication
+FlexGrabber Pro is designed to collect only the minimal data necessary to provide user accounts, manage trials, and enable referral rewards:
 
-* **No Personal Data Collected:** We do not collect, track, or share personal identifying information, location data, contacts, or browsing history.
-* **Local Settings:** Your station filters, time windows, and pay thresholds are stored locally on your device and are never sent to external servers.
+* **Google Sign-In & Authentication:** When you authenticate using Google Sign-In, we process your Google User ID (UID), email address, and basic profile identifier via Firebase Authentication to create and secure your account.
+* **Account & Referral Data:** We store your user identifier, referral code, referral statistics, and reward credit expiry timestamps in Google Cloud Firestore to maintain your account state and reward allocations across sessions.
+* **Local Settings & Filters:** Your personal configuration preferences (such as station filters, time windows, and pay thresholds) remain stored exclusively on your device and are never transmitted to external servers.
 
 ---
 
 ## 3. Third-Party Services
-FlexGrabber Pro does not sell, rent, or share user data with third parties or ad networks. The app uses standard **Google Play Services** strictly to manage app licensing and Google Play Billing for subscriptions.
+We do not sell, rent, monetize, or share your personal data with third-party advertisers or data brokers. The application relies on trusted Google infrastructure strictly to deliver app functionality:
+
+* **Google Play Services & Billing:** To handle subscription verification, in-app purchases, and licensing.
+* **Google Firebase (Authentication & Cloud Firestore):** To manage secure user sign-in and sync referral rewards and trial states.
 
 ---
 
@@ -44,11 +52,12 @@ To provide and enforce our free trial access, prevent unauthorized multi-account
 
 ## 5. Permission Control and Data Deletion
 * **Managing Permissions:** You can enable or disable the Accessibility Service at any time via your device settings (**Settings > Accessibility > Installed Apps > FlexGrabber Pro**).
-* **Data Deletion:** Because all user preferences are saved locally on your device, clearing app data in your device settings or uninstalling the app permanently removes all saved preferences.
+* **Local Preferences Deletion:** Clearing app storage in your device settings or uninstalling the app permanently removes all locally saved filter settings.
+* **Account and Data Deletion Requests:** You have the right to request deletion of your account and associated Firebase data. To request the removal of your user record and stored identifiers, contact us at the email below. We process verified deletion requests promptly within 30 days.
 
 ---
 
 ## 6. Contact Us
-If you have any questions regarding this Privacy Policy, please contact us at:
+If you have any questions regarding this Privacy Policy or your data, please contact us at:
 
 * **Email:** FlexGrabberPro@gmail.com
