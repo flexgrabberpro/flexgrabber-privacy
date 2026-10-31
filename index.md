@@ -1,7 +1,4 @@
----
-layout: default
-title: ""
----
+
 ---
 layout: default
 title: ""
